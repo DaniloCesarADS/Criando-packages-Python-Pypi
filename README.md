@@ -29,16 +29,16 @@ O pacote "image_processing-test" é usado para:
 
 ### Comandos de instalação
 
-python -m pip install --upgrade pip
-python -m pip install --user white
-python -m pip install --user setuptools
-py -m pip install --user --upgrade setuptools wheel
+- python -m pip install --upgrade pip;
+- python -m pip install --user white;
+- python -m pip install --user setuptools;
+- py -m pip install --user --upgrade setuptools wheel;
 
 ### Comando para criar as distribuições
 
-python setup.py sdist bdist_wheel
+- python setup.py sdist bdist_wheel;
 
-Aparecerão 2 pastas, a dist contem os pacotes em formato bin e source code
+- Aparecerão 2 pastas, a dist contem os pacotes em formato bin e source code
 
 ## Passo a passo da configuração para hospedar um pacote em Python no ambiente de testes Test Pypi
 
