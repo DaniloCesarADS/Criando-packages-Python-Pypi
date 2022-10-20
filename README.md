@@ -5,6 +5,11 @@
 #### Tecnologia: Python
 #### Data: 22/08/2020
 -----------------------------------------
+
+## Observação:
+Este projeto foi utilizado para testar o processo de criação de pacotes de software em Python.
+
+-----------------------------------------
 ### Descrição
 O pacote "image_processing-test" é usado para:
 
@@ -20,6 +25,21 @@ O pacote "image_processing-test" é usado para:
   - Resultado do gráfico;
   - Plotar histograma;
 ---------------------------------------------
+# Passo a passo da geração do pacote de distribuição - por Karina kato
+
+### Comandos de instalação
+
+python -m pip install --upgrade pip
+python -m pip install --user white
+python -m pip install --user setuptools
+py -m pip install --user --upgrade setuptools wheel
+
+### Comando para criar as distribuições
+
+python setup.py sdist bdist_wheel
+
+Aparecerão 2 pastas, a dist contem os pacotes em formato bin e source code
+
 ## Passo a passo da configuração para hospedar um pacote em Python no ambiente de testes Test Pypi
 
 - [x] Instalação das últimas versões de "setuptools" e "wheel"
